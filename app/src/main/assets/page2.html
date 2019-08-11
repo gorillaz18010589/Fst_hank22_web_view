@@ -1,0 +1,9 @@
+<script>
+    function test1(n = 49){
+        var here = document.getElementById('here');
+        here.innerHTML = parseInt(Math.random()*n+1);
+    }
+</script>
+<input type="button" onclick="test1()" value="Lottery" />
+<hr>
+<div id="here"></div>
